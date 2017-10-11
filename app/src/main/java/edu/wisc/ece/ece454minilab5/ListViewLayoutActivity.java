@@ -8,6 +8,7 @@ package edu.wisc.ece.ece454minilab5;
 
 import android.app.ListActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -43,7 +44,7 @@ public class ListViewLayoutActivity extends ListActivity {
                 FOLKS.remove(position);
                 mAdapter.notifyDataSetChanged();
                 Toast.makeText(getApplicationContext(), elementText +  " is removed from the list!", Toast.LENGTH_SHORT).show();
-
+                Log.d("","");
             }
         };
 
