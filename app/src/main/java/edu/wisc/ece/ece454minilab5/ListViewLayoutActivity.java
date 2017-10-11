@@ -51,5 +51,7 @@ public class ListViewLayoutActivity extends ListActivity {
         ListView listView = getListView();
         listView.setOnItemClickListener(mListener);
 
+        //test change comment
+
     }
 }
