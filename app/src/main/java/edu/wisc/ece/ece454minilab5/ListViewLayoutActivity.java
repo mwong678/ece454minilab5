@@ -44,7 +44,7 @@ public class ListViewLayoutActivity extends ListActivity {
                 FOLKS.remove(position);
                 mAdapter.notifyDataSetChanged();
                 Toast.makeText(getApplicationContext(), elementText +  " is removed from the list!", Toast.LENGTH_SHORT).show();
-                Log.d("","");
+                Log.d("test","");
             }
         };
 
